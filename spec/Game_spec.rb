@@ -46,19 +46,19 @@ RSpec.describe Game do
         expect(@game.final_position()).to eq([0,0])
     end
 
-    it 'It returns L when the instructions for traveling is L' do
+    it 'It returns L when the instructions for traveling are L' do
         expect(@game.travel('L')).to eq('L')
     end
 
-    it 'It returns R when the instructions for traveling is R' do
+    it 'It returns R when the instructions for traveling are R' do
         expect(@game.travel('R')).to eq('R')
     end
 
-    it 'It returns LR when the instructions for traveling is LR' do
+    it 'It returns LR when the instructions for traveling are LR' do
         expect(@game.travel('LR')).to eq('LR')
     end
 
-    it 'It returns LRF when the instructions for traveling is LRF' do
+    it 'It returns LRF when the instructions for traveling are LRF' do
         expect(@game.travel('LRF')).to eq('LRF')
     end
 
