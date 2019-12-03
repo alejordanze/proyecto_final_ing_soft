@@ -1,0 +1,8 @@
+<h1> Welcome to the game</h1>
+<h3>Ingresa las dimensiones de la superficie</h3>
+<form method="post" action="/simulate">
+    <div><input type='text' name='columnas' id='columnas' placeholder='columnas'></div>
+    <div><input type='text' name='filas' id='filas' placeholder='filas'></div>
+    <div><input type='submit' value='guardar' id='guardar'></div>
+</form>
+<p>La dimension actual es de <%= @dim_x%>x<%= @dim_y%></p>
