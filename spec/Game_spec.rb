@@ -6,7 +6,7 @@ RSpec.describe Game do
         @game = Game.new
     end
 
-    it '' do
+    it 'It returns 1 when width=1 and length=1' do
         expect(@game.define_surface_size(1,1)).to eq(1)
     end
     
