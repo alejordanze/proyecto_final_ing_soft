@@ -49,12 +49,12 @@ class Game
                     final_cordx=final_cordx-1
                 end
             elsif (step=='D')
-                if(final_cordx+1<=columns-1)
+                if(final_cordx+1<columns)
                     final_cordx=final_cordx+1
                 end
             elsif (step=='A')
-                if(final_cordy+1<=rows-1)
-                    final_cordx=final_cordy+1
+                if(final_cordy+1<rows)
+                    final_cordy=final_cordy+1
                 end
             end
         end
