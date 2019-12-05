@@ -61,8 +61,8 @@ class Game
                     final_cordx=final_cordx+1
                 end
             elsif (step.downcase =='a')
-                if(final_cordy+1<rows)
-                    final_cordy=final_cordy+1
+                if(final_cordy-1>=0)
+                    final_cordy=final_cordy-1
                 end
             end
         end
