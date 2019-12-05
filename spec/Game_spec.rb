@@ -113,6 +113,6 @@ RSpec.describe Game do
         @car.setCords(1,1)
         @car.setSequence('IDA')
         @surface.setSurface(5,5)
-        expect(@game.move_car()).to eq([1,2])
+        expect(@game.move_car()).to eq([1,0])
     end
 end
