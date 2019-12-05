@@ -14,29 +14,29 @@ class Surface
         @car = Car.new
     end
 
-    def setSurface(x,y)
+    def set_surface(x,y)
         @columns = x
         @rows = y
     end
 
-    def setCar(car)
+    def set_car(car)
         @car = car
     end
 
-    def getSurface()
+    def get_surface()
         return @columns + 'x' + @rows
     end
 
-    def getColumns()
+    def get_columns()
         @columns
     end
 
-    def getRows()
+    def get_rows()
         @rows
     end
 
 
-    def getCar()
+    def get_car()
         @car
     end
 end

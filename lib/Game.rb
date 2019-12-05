@@ -43,24 +43,24 @@ class Game
     end
 
     def move_car()
-        rows = @surface.getRows()
-        columns = @surface.getColumns()
-        final_cordx = @surface.getCar().getCordX()
-        final_cordy = @surface.getCar().getCordY()
+        rows = @surface.get_rows()
+        columns = @surface.get_columns()
+        final_cordx = @surface.get_car().get_cord_x()
+        final_cordy = @surface.get_car().get_cord_y()
         print final_cordx
         print final_cordy
-        print @surface.getCar().getSequence()
+        print @surface.get_car().get_sequence()
         puts '---------'
-        @surface.getCar().getSequence().each_char do |step|
-            if(step=='I')
+        @surface.get_car().get_sequence().each_char do |step|
+            if(step.downcase == 'i')
                 if(final_cordx-1>=0)
                     final_cordx=final_cordx-1
                 end
-            elsif (step=='D')
+            elsif (step.downcase == 'd')
                 if(final_cordx+1<columns)
                     final_cordx=final_cordx+1
                 end
-            elsif (step=='A')
+            elsif (step.downcase =='a')
                 if(final_cordy+1<rows)
                     final_cordy=final_cordy+1
                 end
