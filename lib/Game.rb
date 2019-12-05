@@ -47,10 +47,6 @@ class Game
         columns = @surface.getColumns()
         final_cordx = @surface.getCar().getCordX()
         final_cordy = @surface.getCar().getCordY()
-        print final_cordx
-        print final_cordy
-        print @surface.getCar().getSequence()
-        puts '---------'
         @surface.getCar().getSequence().each_char do |step|
             if(step=='I')
                 if(final_cordx-1>=0)

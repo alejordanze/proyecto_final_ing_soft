@@ -30,15 +30,6 @@ def getValues()
     @seq = @@car.getSequence()
 
     @final_cords = @@game.move_car()
-    print 'entroooooooooo'
-    @final_cordx = @final_cords[0]
-    @final_cordy = @final_cords[1]
-end
-
-def setValues()
-
-    @final_cords = @@game.move_car()
-    print 'entroooooooooo'
     @final_cordx = @final_cords[0]
     @final_cordy = @final_cords[1]
 end
