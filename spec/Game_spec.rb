@@ -1,9 +1,14 @@
 require 'Game'
+require 'surface'
+require 'car'
 
 RSpec.describe Game do
 
     before(:each) do
-        @game = Game.new
+        @car=Car.new
+        @surface = Surface.new
+        @surface.setCar(@car)
+        @game = Game.new(@surface)
     end
 
     it 'It returns 1 when width=1 and length=1' do
@@ -60,6 +65,20 @@ RSpec.describe Game do
 
     it 'It returns LRF when the instructions for traveling are LRF' do
         expect(@game.travel('LRF')).to eq('LRF')
+    end
+
+    it 'It returns final x=0 and final y=0 when initial x=0 and initial y=0 and sequence is "D" on surface 0x0' do
+        @car.setCords(0,0)
+        @car.setSequence('D')
+        @surface.setSurface(0,0)
+        expect(@game.move_car()).to eq([0,0])
+    end
+
+    it 'It returns final x=2 and final y=1 when initial x=1 and initial y=1 and sequence is "D" on surface 3x3' do
+        @car.setCords(1,1)
+        @car.setSequence('D')
+        @surface.setSurface(3,3)
+        expect(@game.move_car()).to eq([2,1])
     end
 
 end

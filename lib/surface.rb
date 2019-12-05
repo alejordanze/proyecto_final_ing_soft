@@ -34,4 +34,9 @@ class Surface
     def getRows()
         @rows
     end
+
+
+    def getCar()
+        @car
+    end
 end
