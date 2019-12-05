@@ -13,11 +13,11 @@ class Car
         @cordy = y
     end
 
-    def get_cord_x()
+    def get_cordX()
         @cordx
     end
 
-    def get_cord_y()
+    def get_cordY()
         @cordy
     end
 

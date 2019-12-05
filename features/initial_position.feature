@@ -1,7 +1,7 @@
 Feature: 
     Como jugador
-    Quiero especificar el tamano de la superficie
-    Para que los autos se desplacen en esa dimension
+    Quiero indicar la posición inicial
+    Para que inicie su recorrido en esa posición
 
 Scenario: 
     Given visito la pagina simuladora

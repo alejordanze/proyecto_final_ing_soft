@@ -74,21 +74,21 @@ RSpec.describe Game do
         expect(@game.move_car()).to eq([0,1])
     end
 
-    it 'It returns final x=1 and final y=1 when initial x=1 and initial y=1 and sequence is "I" on surface 3x3' do
+    it 'It returns final x=1 and final y=1 when initial x=1 and initial y=1 and sequence is "ID" on surface 3x3' do
         @car.set_cords(1,1)
         @car.set_sequence('ID')
         @surface.set_surface(3,3)
         expect(@game.move_car()).to eq([1,1])
     end
 
-    it 'It returns final x=1 and final y=1 when initial x=1 and initial y=1 and sequence is "I" on surface 5x5' do
+    it 'It returns final x=4 and final y=1 when initial x=1 and initial y=1 and sequence is "IDDDD" on surface 5x5' do
         @car.set_cords(1,1)
         @car.set_sequence('IDDDD')
         @surface.set_surface(5,5)
         expect(@game.move_car()).to eq([4,1])
     end
 
-    it 'It returns final x=1 and final y=1 when initial x=1 and initial y=1 and sequence is "I" on surface 5x5' do
+    it 'It returns final x=1 and final y=0 when initial x=1 and initial y=1 and sequence is "IDA" on surface 5x5' do
         @car.set_cords(1,1)
         @car.set_sequence('IDA')
         @surface.set_surface(5,5)
