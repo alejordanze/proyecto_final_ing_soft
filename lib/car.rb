@@ -8,24 +8,24 @@ class Car
         @cordy = 0
         @sequence = ''
     end
-    def setCords(x,y)
+    def set_cords(x,y)
         @cordx = x
         @cordy = y
     end
 
-    def getCordX()
+    def get_cordX()
         @cordx
     end
 
-    def getCordY()
+    def get_cordY()
         @cordy
     end
 
-    def setSequence(seq)
+    def set_sequence(seq)
         @sequence = seq
     end
 
-    def getSequence()
+    def get_sequence()
         @sequence
     end
 end
