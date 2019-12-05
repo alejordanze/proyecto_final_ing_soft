@@ -18,16 +18,22 @@ class Game
         return x, y
     end
 
-    def turn_left()
-        'turning left'
+    def turn_left(final_cordx)
+        if(final_cordx - 1 >= 0)
+            final_cordx = final_cordx - 1
+        end
     end
 
-    def turn_right()
-        'turning right'
+    def turn_right(final_cordx)
+        if(final_cordx + 1 < @surface.get_columns())
+            final_cordx = final_cordx + 1
+        end
     end
 
-    def give_a_step_forward()
-        'moving forward'
+    def give_a_step_forward(final_cordy)
+        if(final_cordy - 1 >= 0)
+            final_cordy = final_cordy - 1
+        end
     end
 
     def final_position()
@@ -38,8 +44,20 @@ class Game
         cad
     end
 
-    def set_Surface(surface)
+    def set_surface(surface)
         @surface = surface
+    end
+
+    def is_turn_left?(step)
+        step.downcase == 'i'
+    end
+
+    def is_turn_right?(step)
+        step.downcase == 'd'
+    end
+
+    def is_forward?(step)
+        step.downcase == 'a'
     end
 
     def move_car()
@@ -47,23 +65,13 @@ class Game
         columns = @surface.get_columns()
         final_cordx = @surface.get_car().get_cord_x()
         final_cordy = @surface.get_car().get_cord_y()
-        print final_cordx
-        print final_cordy
-        print @surface.get_car().get_sequence()
-        puts '---------'
         @surface.get_car().get_sequence().each_char do |step|
-            if(step.downcase == 'i')
-                if(final_cordx-1>=0)
-                    final_cordx=final_cordx-1
-                end
-            elsif (step.downcase == 'd')
-                if(final_cordx+1<columns)
-                    final_cordx=final_cordx+1
-                end
-            elsif (step.downcase =='a')
-                if(final_cordy-1>=0)
-                    final_cordy=final_cordy-1
-                end
+            if(is_turn_left?(step))
+                final_cordx = turn_left(final_cordx)
+            elsif (is_turn_right?(step))
+                final_cordx = turn_right(final_cordx)
+            elsif (is_forward?(step))
+                final_cordy = give_a_step_forward(final_cordy)
             end
         end
         return final_cordx,final_cordy

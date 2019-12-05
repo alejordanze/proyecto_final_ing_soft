@@ -16,7 +16,7 @@ post '/simulate' do
     @@car.set_cords(params[:cord_x].to_i, params[:cord_y].to_i)
     @@car.set_sequence(params[:sequence])
     @@surface.set_car(@@car)
-    @@game.set_Surface(@@surface)
+    @@game.set_surface(@@surface)
     getValues()
     erb :home
 end
