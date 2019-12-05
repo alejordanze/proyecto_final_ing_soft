@@ -22,18 +22,21 @@ class Game
         if(final_cordx - 1 >= 0)
             final_cordx = final_cordx - 1
         end
+        return final_cordx
     end
 
     def turn_right(final_cordx)
         if(final_cordx + 1 < @surface.get_columns())
             final_cordx = final_cordx + 1
         end
+        return final_cordx
     end
 
     def give_a_step_forward(final_cordy)
         if(final_cordy - 1 >= 0)
             final_cordy = final_cordy - 1
         end
+        return final_cordy
     end
 
     def final_position()

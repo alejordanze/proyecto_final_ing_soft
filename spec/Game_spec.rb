@@ -31,22 +31,24 @@ RSpec.describe Game do
         expect(@game.define_initial_position(2,5)).to eq([2,5])
     end
 
-    it 'It returns "turn left" when we call turn_left' do
-        expect(@game.turn_left()).to eq('turning left')
+    it 'It returns 0 when we call turn_left with 1' do
+        @car.set_cords(0,0)
+        @car.set_sequence('I')
+        @surface.set_surface(5,5)
+        expect(@game.turn_left(1)).to eq(0)
     end
 
-    it 'It returns "turn right" when we call turn_right' do
-        expect(@game.turn_right()).to eq('turning right')
+    it 'It returns 2 when we call turn_right with 1' do
+        @car.set_cords(0,0)
+        @car.set_sequence('D')
+        @surface.set_surface(5,5)
+        expect(@game.turn_right(1)).to eq(2)
     end
     
-    it 'It returns "moving forward" when we call give_a_step_forward' do
-        expect(@game.give_a_step_forward()).to eq('moving forward')
+    it 'It returns 1 when we call give_a_step_forward with 2' do
+        expect(@game.give_a_step_forward(2)).to eq(1)
     end
     
-    it 'It returns "moving forward" when we call give_a_step_forward' do
-        expect(@game.give_a_step_forward()).to eq('moving forward')
-    end
-
     it 'It returns the final position as 0,0 when we want to se the final position' do
         expect(@game.final_position()).to eq([0,0])
     end
@@ -72,13 +74,6 @@ RSpec.describe Game do
         expect(@game.move_car()).to eq([0,1])
     end
 
-    it 'It returns final x=0 and final y=1 when initial x=0 and initial y=1 and sequence is "I" on surface 3x3' do
-        @car.set_cords(0,1)
-        @car.set_sequence('I')
-        @surface.set_surface(3,3)
-        expect(@game.move_car()).to eq([0,1])
-    end
-
     it 'It returns final x=1 and final y=1 when initial x=1 and initial y=1 and sequence is "I" on surface 3x3' do
         @car.set_cords(1,1)
         @car.set_sequence('ID')
@@ -97,6 +92,6 @@ RSpec.describe Game do
         @car.set_cords(1,1)
         @car.set_sequence('IDA')
         @surface.set_surface(5,5)
-        expect(@game.move_car()).to eq([1,2])
+        expect(@game.move_car()).to eq([1,0])
     end
 end

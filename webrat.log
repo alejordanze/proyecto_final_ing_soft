@@ -73,3 +73,10 @@ D, [2019-12-03T11:11:32.319727 #6661] DEBUG -- : REQUESTING PAGE: POST /simulate
 D, [2019-12-03T11:11:32.321517 #6661] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2019-12-03T11:11:32.327804 #6661] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2019-12-03T11:11:32.330103 #6661] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-05T09:38:41.033588 #44371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-05T09:38:41.078503 #44371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-05T09:38:41.092140 #44371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-05T09:38:41.096618 #44371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"3", "cord_y"=>"4", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-05T09:38:41.120903 #44371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-05T09:38:41.126443 #44371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-05T09:38:41.273967 #44371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
