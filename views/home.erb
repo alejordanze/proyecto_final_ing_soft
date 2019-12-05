@@ -1,8 +1,44 @@
-<h1> Welcome to the game</h1>
-<h3>Ingresa las dimensiones de la superficie</h3>
-<form method="post" action="/simulate">
-    <div><input type='text' name='columnas' id='columnas' placeholder='columnas'></div>
-    <div><input type='text' name='filas' id='filas' placeholder='filas'></div>
-    <div><input type='submit' value='guardar' id='guardar'></div>
-</form>
-<p>La dimension actual es de <%= @dim_x%>x<%= @dim_y%></p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <h1> Welcome to the game</h1>
+        <form method="post" action="/simulate">
+            <div class="surface-float"> 
+                <h3>Ingresa las dimensiones de la superficie</h3>
+                <div class="field-float">
+                    <p class="field-name">Numero de columnas:</p> 
+                    <input class="my-input" type='text' name='columnas' id='columnas' placeholder='Numero de columnas'>
+                </div>
+                <div class="field-float mrg-left">
+                    <p class="field-name">Numero de filas:</p> 
+                    <input class="my-input" type='text' name='filas' id='filas' placeholder='Numero de filas'>
+                </div>
+            </div>
+            <div class="pos-float"> 
+                <h3 class="title-no">Ingresa la posicion inicial del auto</h3>
+                <div class="field-float">
+                    <p class="field-name">Coordenada x:</p> 
+                    <input class="my-input"  type='text' name='cord_x' id='cord_x' placeholder='Coordenada x'>
+                </div>
+                <div class="field-float mrg-left">
+                    <p class="field-name">Coordenada y:</p> 
+                    <input class="my-input" type='text' name='cord_y' id='cord_y' placeholder='Coordenada y'>
+                </div>
+            </div>
+            <div class="pos-float"> 
+                <h3 class="title-no">Ingresa la secuencia de pasos</h3>
+                <div class="field-float">
+                    <p class="field-name">Secuencia (IDAADI):</p> 
+                    <input class="my-input2" type='text' name='sequence' id='sequence' placeholder='Secuencia'>
+                </div>
+            </div>
+            <div class="button-float"><input type='submit' class="button" value='Simular' id='simular'></div>
+        </form>
+        <p>La dimension actual es de <%= @columns%>x<%= @rows%></p>
+        <p>La posicion inicial es de <%= @cordx%>,<%= @cordy%></p>
+        <p>La secuencia es <%= @seq%></p>
+    </body>
+</html>

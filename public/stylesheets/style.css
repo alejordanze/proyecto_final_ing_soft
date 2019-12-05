@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+.my-input{
+    color: black !important;
+    border: 1px solid #afafaf;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.my-input2{
+    color: black !important;
+    border: 1px solid #afafaf;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px
+}
+
+
+.field-name{
+    color: black;
+    font-size: 12px;
+}
+
+.field-float{
+    float: left;
+}
+
+.mrg-left{
+    margin-left: 30px;
+}
+
+.title-no{
+    float: none;
+}
+.surface-float{
+    float: left;
+    margin-bottom: 30px;
+}
+
+.pos-float{
+    float: left;
+    margin-left: 40px;
+}
+
+.button-float{
+    clear: left;
+}
+
+.button{
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 6px;
+
+}
+
