@@ -6,6 +6,7 @@ require './lib/Game'
 @@car = Car.new
 @@game = Game.new(@@surface)
 
+
 get '/' do
     getValues()
     erb :home
@@ -16,7 +17,7 @@ post '/simulate' do
     @@car.set_cords(params[:cord_x].to_i, params[:cord_y].to_i)
     @@car.set_sequence(params[:sequence])
     @@surface.set_car(@@car)
-    @@game.set_surface(@@surface)
+    @@game.set_Surface(@@surface)
     getValues()
     erb :home
 end
@@ -24,8 +25,8 @@ end
 def getValues()
     @columns = @@surface.get_columns()
     @rows = @@surface.get_rows()
-    @cordx = @@car.get_cord_x()
-    @cordy = @@car.get_cord_y()
+    @cordx = @@car.get_cordX()
+    @cordy = @@car.get_cordY()
     @seq = @@car.get_sequence()
 
     @final_cords = @@game.move_car()
