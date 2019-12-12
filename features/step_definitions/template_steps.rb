@@ -11,7 +11,7 @@ When /^I click on "(.*)"$/ do |text|
 end
 
 Then /^I should see "(.*)"$/ do |text|
-  expect(last_response.body).to have_content(text)
+  last_response.body.should =~ /#{text}/m
 end
 
 When /^I fill "(.*)" with "(.*)"$/ do |field, value|

@@ -11,8 +11,8 @@ When("ingreso en el campo filas {int}") do |int|
 end
 
   
-Then("deberia ver el {string}") do |mensaje|
-    expect(last_response.body).to have_content(mensaje)  
+Then("deberia ver el {string}") do |string|
+    last_response.body.should =~ /#{string}/m
 end
   
 When("presiono el boton {string}") do |string|

@@ -3,5 +3,5 @@ Given("visito la pagina home") do
 end
   
 Then("deberia ver el mensaje {string}") do |mensaje|
-    expect(last_response.body).to have_content(mensaje)  
+    last_response.body.should =~ /#{mensaje}/m 
 end
