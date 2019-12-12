@@ -23,10 +23,6 @@ class Surface
         @car = car
     end
 
-    def get_surface()
-        return @columns + 'x' + @rows
-    end
-
     def get_columns()
         @columns
     end
@@ -34,7 +30,6 @@ class Surface
     def get_rows()
         @rows
     end
-
 
     def get_car()
         @car

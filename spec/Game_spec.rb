@@ -11,87 +11,325 @@ RSpec.describe Game do
         @game = Game.new(@surface)
     end
 
-    it 'It returns 1 when width=1 and length=1' do
-        expect(@game.define_surface_size(1,1)).to eq(1)
+    it 'It returns car is West when it turs left from North' do
+        @car.set_orientation_final([-1, 'y'])
+        expect(@game.turn_left(@car).get_orientation_final()).to eq([-1, 'x'])
     end
 
-    it 'It returns 1 when width=2 and length=1' do
-        expect(@game.define_surface_size(2,1)).to eq(2)
+    it 'It returns car is East when it turs left from South' do
+        @car.set_orientation_final([1, 'y'])
+        expect(@game.turn_left(@car).get_orientation_final()).to eq([1, 'x'])
     end
 
-    it 'It returns 1 when width=5 and length=2' do
-        expect(@game.define_surface_size(5,2)).to eq(10)
+    it 'It returns car is North when it turs left from East' do
+        @car.set_orientation_final([1, 'x'])
+        expect(@game.turn_left(@car).get_orientation_final()).to eq([-1, 'y'])
     end
 
-    it 'It returns x=1 and y=1' do
-        expect(@game.define_initial_position(1,1)).to eq([1,1])
+    it 'It returns car is South when it turs left from West' do
+        @car.set_orientation_final([-1, 'x'])
+        expect(@game.turn_left(@car).get_orientation_final()).to eq([1, 'y'])
     end
 
-    it 'It returns x=2 and y=5' do
-        expect(@game.define_initial_position(2,5)).to eq([2,5])
+    it 'It returns car is West when it turs right from South' do
+        @car.set_orientation_final([1, 'y'])
+        expect(@game.turn_right(@car).get_orientation_final()).to eq([-1, 'x'])
     end
 
-    it 'It returns 0 when we call turn_left with 1' do
-        @car.set_cords(0,0)
-        @car.set_sequence('I')
-        @surface.set_surface(5,5)
-        expect(@game.turn_left(1)).to eq(0)
+    it 'It returns car is East when it turs right from North' do
+        @car.set_orientation_final([-1, 'y'])
+        expect(@game.turn_right(@car).get_orientation_final()).to eq([1, 'x'])
     end
 
-    it 'It returns 2 when we call turn_right with 1' do
-        @car.set_cords(0,0)
-        @car.set_sequence('D')
-        @surface.set_surface(5,5)
-        expect(@game.turn_right(1)).to eq(2)
+    it 'It returns car is North when it turs right from East' do
+        @car.set_orientation_final([1, 'x'])
+        expect(@game.turn_right(@car).get_orientation_final()).to eq([1, 'y'])
+    end
+
+    it 'It returns car is South when it turs left from West' do
+        @car.set_orientation_final([-1, 'x'])
+        expect(@game.turn_right(@car).get_orientation_final()).to eq([-1, 'y'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 0, and its orientation to N when car is in cord x =1, cord y =1, and its orientation to N when sequence is A ' do
+        @car.set_orientation_final([-1, 'y'])
+        @car.set_cords_final(1,1)
+        expect(@game.give_a_step_forward(@car).get_cordY_final()).to eq(0)
+    end
+
+    it 'It returns car in cord x =1, cord y = 2, and its orientation to S when car is in cord x =1, cord y =1, and its orientation to S when sequence is A ' do
+        @car.set_orientation_final([1, 'y'])
+        @car.set_cords_final(1,1)
+        expect(@game.give_a_step_forward(@car).get_cordY_final()).to eq(2)
+    end
+
+    it 'It returns car in cord x =1, cord y = 0, and its orientation to N when car is in cord x =1, cord y =1, and its orientation to N when sequence is A ' do
+        @car.set_orientation_final([-1, 'y'])
+        @car.set_cords_final(1,1)
+        expect(@game.give_a_step_forward(@car).get_cordY_final()).to eq(0)
+    end
+
+    it 'It returns car in cord x = 2, cord y = 1, and its orientation to E when car is in cord x =1, cord y =1, and its orientation to E when sequence is E ' do
+        @car.set_orientation_final([1, 'x'])
+        @car.set_cords_final(1,1)
+        expect(@game.give_a_step_forward(@car).get_cordX_final()).to eq(2)
+    end
+
+    it 'It returns car in cord x = 0, cord y = 1, and its orientation to W when car is in cord x =1, cord y =1, and its orientation to W when sequence is W ' do
+        @car.set_orientation_final([-1, 'x'])
+        @car.set_cords_final(1,1)
+        expect(@game.give_a_step_forward(@car).get_cordX_final()).to eq(0)
+    end
+
+    it 'It returns true when the sequence is i ' do
+        expect(@game.is_turn_left?('i')).to eq(true)
+    end
+
+    it 'It returns true when the sequence is d ' do
+        expect(@game.is_turn_right?('d')).to eq(true)
+    end
+
+    it 'It returns true when the sequence is a ' do
+        expect(@game.is_forward?('a')).to eq(true)
+    end
+
+    it 'It returns car in cord x =1, cord y = 0, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is A in a surface of 10x10' do
+        @car.set_sequence('a')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('N')
+        @surface.set_surface(10,10)
+        @surface.set_car(@car)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(0)
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'y'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 2, and orientation = S when car is in cord x =1, cord y =1, and orientation = S when sequence is A in a surface of 10x10' do
+        @car.set_sequence('a')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('S')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(2)
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([1,'y'])
+    end
+
+    it 'It returns car in cord x =2, cord y = 1, and orientation = E when car is in cord x =1, cord y =1, and orientation = E when sequence is A in a surface of 10x10' do
+        @car.set_sequence('a')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('E')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(2)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([1,'x'])
+    end
+
+    it 'It returns car in cord x = 0, cord y = 1, and orientation = O when car is in cord x =1, cord y =1, and orientation = O when sequence is A in a surface of 10x10' do
+        @car.set_sequence('a')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('O')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(0)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 1, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is I in a surface of 10x10' do
+        @car.set_sequence('i')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('N')
+        @surface.set_surface(10,10)
+        @surface.set_car(@car)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 1, and orientation = S when car is in cord x =1, cord y =1, and orientation = S when sequence is I in a surface of 10x10' do
+        @car.set_sequence('i')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('S')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 1, and orientation = E when car is in cord x =1, cord y =1, and orientation = E when sequence is I in a surface of 10x10' do
+        @car.set_sequence('i')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('E')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'y'])
+    end
+
+    it 'It returns car in cord x = 1, cord y = 1, and orientation = O when car is in cord x =1, cord y =1, and orientation = O when sequence is I in a surface of 10x10' do
+        @car.set_sequence('i')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('O')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([1,'y'])
     end
     
-    it 'It returns 1 when we call give_a_step_forward with 2' do
-        expect(@game.give_a_step_forward(2)).to eq(1)
+    it 'It returns car in cord x =1, cord y = 1, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is D in a surface of 10x10' do
+        @car.set_sequence('d')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('N')
+        @surface.set_surface(10,10)
+        @surface.set_car(@car)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([+1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 1, and orientation = S when car is in cord x =1, cord y =1, and orientation = S when sequence is D in a surface of 10x10' do
+        @car.set_sequence('d')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('S')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 1, and orientation = E when car is in cord x =1, cord y =1, and orientation = E when sequence is D in a surface of 10x10' do
+        @car.set_sequence('d')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('E')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([1,'y'])
+    end
+
+    it 'It returns car in cord x = 1, cord y = 1, and orientation = O when car is in cord x =1, cord y =1, and orientation = O when sequence is D in a surface of 10x10' do
+        @car.set_sequence('d')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('O')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'y'])
+    end
+
+    it 'It returns car in cord x =2, cord y = 1, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is DA in a surface of 10x10' do
+        @car.set_sequence('da')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('N')
+        @surface.set_surface(10,10)
+        @surface.set_car(@car)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(2)
+        expect(@car.get_orientation_final()).to eq([+1,'x'])
+    end
+
+    it 'It returns car in cord x =0, cord y = 1, and orientation = S when car is in cord x =1, cord y =1, and orientation = S when sequence is DA in a surface of 10x10' do
+        @car.set_sequence('da')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('S')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(0)
+        expect(@car.get_orientation_final()).to eq([-1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 2, and orientation = E when car is in cord x =1, cord y =1, and orientation = E when sequence is DA in a surface of 10x10' do
+        @car.set_sequence('da')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('E')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(2)
+        expect(@car.get_orientation_final()).to eq([1,'y'])
+    end
+
+    it 'It returns car in cord x = 1, cord y = 0, and orientation = O when car is in cord x =1, cord y =1, and orientation = O when sequence is DA in a surface of 10x10' do
+        @car.set_sequence('da')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('O')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(0)
+        expect(@car.get_orientation_final()).to eq([-1,'y'])
+    end
+
+
+
+
+    it 'It returns car in cord x =0, cord y = 1, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is IA in a surface of 10x10' do
+        @car.set_sequence('ia')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('N')
+        @surface.set_surface(10,10)
+        @surface.set_car(@car)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(0)
+        expect(@car.get_orientation_final()).to eq([-1,'x'])
+    end
+
+    it 'It returns car in cord x =2, cord y = 1, and orientation = S when car is in cord x =1, cord y =1, and orientation = S when sequence is iA in a surface of 10x10' do
+        @car.set_sequence('ia')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('S')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_cordX_final()).to eq(2)
+        expect(@car.get_orientation_final()).to eq([+1,'x'])
+    end
+
+    it 'It returns car in cord x =1, cord y = 0, and orientation = E when car is in cord x =1, cord y =1, and orientation = E when sequence is iA in a surface of 10x10' do
+        @car.set_sequence('ia')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('E')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(0)
+        expect(@car.get_orientation_final()).to eq([-1,'y'])
+    end
+
+    it 'It returns car in cord x = 1, cord y = 2, and orientation = O when car is in cord x =1, cord y =1, and orientation = O when sequence is iA in a surface of 10x10' do
+        @car.set_sequence('ia')
+        @car.set_cords_final(1,1)
+        @car.set_input_orientation('O')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(2)
+        expect(@car.get_orientation_final()).to eq([1,'y'])
+    end
+
+    it 'It returns car in cord x = 1, cord y = 1, and orientation = N when car is in cord x =1, cord y = 2, and orientation = N when sequence is IAIAIAIAA in a surface of 10x10' do
+        @car.set_sequence('iaiaiaiaa')
+        @car.set_cords_final(1,2)
+        @car.set_input_orientation('N')
+        @surface.set_surface(10,10)
+        @car =@game.move_car()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([-1,'y'])
     end
     
-    it 'It returns the final position as 0,0 when we want to se the final position' do
-        expect(@game.final_position()).to eq([0,0])
-    end
-
-    it 'It returns final x=0 and final y=0 when initial x=0 and initial y=0 and sequence is "D" on surface 0x0' do
-        @car.set_cords(0,0)
-        @car.set_sequence('D')
-        @surface.set_surface(0,0)
-        expect(@game.move_car()).to eq([0,0])
-    end
-
-    it 'It returns final x=2 and final y=1 when initial x=1 and initial y=1 and sequence is "D" on surface 3x3' do
-        @car.set_cords(1,1)
-        @car.set_sequence('D')
-        @surface.set_surface(3,3)
-        expect(@game.move_car()).to eq([2,1])
-    end
-
-    it 'It returns final x=0 and final y=1 when initial x=1 and initial y=1 and sequence is "I" on surface 3x3' do
-        @car.set_cords(0,1)
-        @car.set_sequence('I')
-        @surface.set_surface(3,3)
-        expect(@game.move_car()).to eq([0,1])
-    end
-
-    it 'It returns final x=1 and final y=1 when initial x=1 and initial y=1 and sequence is "ID" on surface 3x3' do
-        @car.set_cords(1,1)
-        @car.set_sequence('ID')
-        @surface.set_surface(3,3)
-        expect(@game.move_car()).to eq([1,1])
-    end
-
-    it 'It returns final x=4 and final y=1 when initial x=1 and initial y=1 and sequence is "IDDDD" on surface 5x5' do
-        @car.set_cords(1,1)
-        @car.set_sequence('IDDDD')
-        @surface.set_surface(5,5)
-        expect(@game.move_car()).to eq([4,1])
-    end
-
-    it 'It returns final x=1 and final y=0 when initial x=1 and initial y=1 and sequence is "IDA" on surface 5x5' do
-        @car.set_cords(1,1)
-        @car.set_sequence('IDA')
-        @surface.set_surface(5,5)
-        expect(@game.move_car()).to eq([1,0])
-    end
 end
