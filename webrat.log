@@ -163,3 +163,124 @@ D, [2019-12-12T15:34:32.968800 #29687] DEBUG -- : REQUESTING PAGE: GET / with {}
 D, [2019-12-12T15:34:32.971215 #29687] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2019-12-12T15:34:32.973311 #29687] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2019-12-12T15:34:32.975743 #29687] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T16:59:37.402069 #8689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:37.414869 #8689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:37.434848 #8689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:37.439308 #8689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:56.054488 #8736] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:56.073859 #8736] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:56.095288 #8736] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T16:59:56.097947 #8736] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:04:40.941057 #18801] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:04:40.959960 #18801] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:04:40.980034 #18801] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:04:40.990159 #18801] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:03.274114 #19030] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:03.286488 #19030] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:03.287855 #19030] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:03.290287 #19030] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:13.623343 #19076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:13.639232 #19076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:13.657408 #19076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:08:13.667218 #19076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:38.248844 #19285] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:38.264584 #19285] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:38.268788 #19285] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:38.271623 #19285] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:55.702077 #19337] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:55.718343 #19337] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:55.734090 #19337] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:10:55.739770 #19337] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:03.034994 #19379] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:03.050240 #19379] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:03.067478 #19379] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:03.074522 #19379] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:09.816621 #19422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:09.835684 #19422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:09.839705 #19422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:09.843558 #19422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:41.703478 #19553] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:41.718969 #19553] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:41.723026 #19553] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:41.725838 #19553] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:50.002569 #19593] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:50.016524 #19593] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:50.020287 #19593] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:11:50.023498 #19593] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:14:53.635640 #19754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:14:53.650843 #19754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:14:53.657137 #19754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:14:53.659603 #19754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:27.430182 #19867] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:27.447095 #19867] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:27.448537 #19867] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:27.451888 #19867] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:55.877577 #19959] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:55.889704 #19959] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:55.903189 #19959] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:15:55.906683 #19959] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:16:54.630582 #20050] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:16:54.646067 #20050] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:16:54.662104 #20050] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:16:54.666026 #20050] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:18:46.859194 #20159] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:18:46.874654 #20159] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:18:46.887587 #20159] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:18:46.891846 #20159] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:19:33.641391 #20270] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:19:33.663173 #20270] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:19:33.686578 #20270] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:19:33.691754 #20270] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:19:33.695043 #20270] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:19:33.698419 #20270] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:19:33.701721 #20270] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:20:18.644832 #20326] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:18.661653 #20326] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:20:18.686438 #20326] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:18.689649 #20326] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:18.692475 #20326] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:20:18.695154 #20326] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:18.697764 #20326] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:20:43.997752 #20414] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:44.017300 #20414] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:20:44.037484 #20414] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:44.042897 #20414] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:44.047211 #20414] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:20:44.050589 #20414] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:20:44.053440 #20414] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:22:20.790778 #20927] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:22:20.820595 #20927] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:22:20.845719 #20927] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:22:20.849243 #20927] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:22:20.852187 #20927] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:22:20.855281 #20927] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:22:20.860653 #20927] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:23:02.782370 #21041] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:02.798505 #21041] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:02.816289 #21041] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:02.820047 #21041] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:35.915042 #21109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:35.930151 #21109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:35.944891 #21109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:23:35.949459 #21109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:31:35.684058 #21689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:31:35.705327 #21689] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:31:35.734000 #21689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:31:35.737113 #21689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:31:35.741796 #21689] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:31:35.746478 #21689] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:31:35.749990 #21689] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:33:22.393890 #21992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:33:22.419672 #21992] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:33:22.440688 #21992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:33:22.443814 #21992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:33:22.446855 #21992] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:33:22.452104 #21992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:33:22.456511 #21992] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:34:41.822241 #22136] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:34:41.845982 #22136] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:34:41.872084 #22136] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:34:41.874968 #22136] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:34:41.877820 #22136] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T17:34:41.891887 #22136] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T17:34:41.898879 #22136] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}

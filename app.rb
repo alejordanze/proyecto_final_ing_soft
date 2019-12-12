@@ -2,6 +2,8 @@ require 'sinatra'
 require './lib/surface'
 require './lib/car'
 require './lib/Game'
+
+#class App < Sinatra::Base
 @@surface = Surface.new
 @@car = Car.new
 @@game = Game.new(@@surface)
@@ -36,3 +38,4 @@ def getValues()
     @final_cordx = @@car.get_cordX_final()
     @final_cordy = @@car.get_cordY_final()
 end
+#end
