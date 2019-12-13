@@ -29,18 +29,42 @@ class Car
     end
 
     def set_input_orientation(ori)
-        if(ori == 'N') 
+        if(ori.downcase == 'n') 
             @orientation = [-1,'y']
             @orientation_final = [-1,'y']
-        elsif(ori == 'S')
+        elsif(ori.downcase == 's')
             @orientation = [1,'y']
             @orientation_final = [1,'y']
-        elsif(ori == 'E')
+        elsif(ori.downcase == 'e')
             @orientation = [1,'x']
             @orientation_final = [1,'x']
-        elsif(ori == 'O')
+        elsif(ori.downcase == 'o')
             @orientation = [-1,'x']
             @orientation_final = [-1,'x']
+        end
+    end
+
+    def get_char_orientation()
+        if(isNorth?(@orientation)) 
+            'N'
+        elsif(isSouth?(@orientation))
+            'S'
+        elsif(isEast?(@orientation))
+            'E'
+        elsif(isWest?(@orientation))
+            'O'
+        end
+    end
+
+    def get_char_orientation_final()
+        if(isNorth?(@orientation_final)) 
+            'N'
+        elsif(isSouth?(@orientation_final))
+            'S'
+        elsif(isEast?(@orientation_final))
+            'E'
+        elsif(isWest?(@orientation_final))
+            'O'
         end
     end
 
@@ -87,5 +111,21 @@ class Car
 
     def set_cordY_final(y)
         @cordy_final = y
+    end
+
+    def isNorth?(ori)
+        ori == [-1,'y']
+    end
+
+    def isSouth?()
+        ori == [1,'y']
+    end
+
+    def isEast?()
+        ori == [1,'x']
+    end
+
+    def isWest?()
+        ori == [-1,'x']
     end
 end

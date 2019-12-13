@@ -1,13 +1,17 @@
 require './lib/surface'
 
 class Game
-    @surface
+    @@surface
     @final_cordx
     @final_cordy
+    @cant_cars
+    @errors
     def initialize(surface)
-      @surface = surface
+      @@surface = surface
       @final_cordx = 0
       @final_cordy = 0
+      @cant_cars = 1
+      @errors = []
     end
 
     def turn_left(car)
@@ -38,7 +42,9 @@ class Game
 
     def give_a_step_forward(car)
         if(isNorth?(car) || isSouth?(car))
-            car.set_cordY_final(car.get_cordY_final()+car.get_orientation_final()[0])
+            if(is_valid_moveY?(car))
+                car.set_cordY_final(car.get_cordY_final()+car.get_orientation_final()[0])
+            end
         elsif(isEast?(car) || isWest?(car))
             if(is_valid_moveX?(car))
                 car.set_cordX_final(car.get_cordX_final()+car.get_orientation_final()[0])
@@ -48,7 +54,7 @@ class Game
     end
 
     def set_Surface(surface)
-        @surface = surface
+        @@surface = surface
     end
 
     def is_turn_left?(step)
@@ -78,6 +84,14 @@ class Game
         return car
     end
 
+    def setError(error)
+        @errors.push(error)
+    end
+
+    def getErrors()
+        @errors
+    end
+
     def setWest(car)
         car.set_orientation_final([-1, 'x'])
         return car
@@ -100,18 +114,26 @@ class Game
     end
 
     def is_valid_moveX?(car)
-        car.get_cordX_final() + car.get_orientation_final()[0] >= 0 && car.get_cordX_final()+car.get_orientation_final()[0] < @surface.get_columns()
+        car.get_cordX_final() + car.get_orientation_final()[0] >= 0 && car.get_cordX_final()+car.get_orientation_final()[0] < @@surface.get_columns()
     end
 
     def is_valid_moveY?(car)
-        car.get_cordY_final() + car.get_orientation_final()[0] >= 0 && car.get_cordY_final()+car.get_orientation_final()[0] < @surface.get_rows()
+        car.get_cordY_final() + car.get_orientation_final()[0] >= 0 && car.get_cordY_final()+car.get_orientation_final()[0] < @@surface.get_rows()
+    end
+
+    def set_cant_cars(n)
+        @cant_cars = n
+    end
+
+    def get_cant_cars()
+        @cant_cars
     end
 
     def move_car()
-        rows = @surface.get_rows()
-        columns = @surface.get_columns()
-        car = @surface.get_car();
-        @surface.get_car().get_sequence().each_char do |step|
+        rows = @@surface.get_rows()
+        columns = @@surface.get_columns()
+        car = @@surface.get_car();
+        @@surface.get_car().get_sequence().each_char do |step|
             if(is_turn_left?(step))
                 car = turn_left(car)
             elsif (is_turn_right?(step))
@@ -121,5 +143,24 @@ class Game
             end
         end
         return car
+    end    
+
+    def move_cars()
+        rows = @@surface.get_rows()
+        columns = @@surface.get_columns()
+        cars = @@surface.get_cars()
+        length = @@surface.get_cars_length()
+        print('ACTUAL LENGTH OF CARS ', length)
+        cars.each_with_index do |car, index| 
+            car.get_sequence().each_char do |step|
+                if(is_turn_left?(step))
+                    car = turn_left(car)
+                elsif (is_turn_right?(step))
+                    car = turn_right(car)
+                elsif (is_forward?(step))
+                    car = give_a_step_forward(car)
+                end
+            end
+        end
     end    
 end

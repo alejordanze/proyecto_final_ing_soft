@@ -175,4 +175,23 @@ RSpec.describe Car do
         expect(@car.set_cordY_final(0)).to eq(0)
     end
 
+    it 'Return North when orientation [-1,y]' do
+        @car.set_orientation([-1,'y'])
+        expect(@car.get_char_orientation()).to eq('N')
+    end
+
+    it 'Return South when orientation [1,y]' do
+        @car.set_orientation([1,'y'])
+        expect(@car.get_char_orientation()).to eq('S')
+    end
+
+    it 'Return East when orientation [1,x]' do
+        @car.set_orientation([1,'x'])
+        expect(@car.get_char_orientation()).to eq('E')
+    end
+
+    it 'Return West when orientation [-1,x]' do
+        @car.set_orientation([-1,'x'])
+        expect(@car.get_char_orientation()).to eq('O')
+    end
 end

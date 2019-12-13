@@ -13,7 +13,6 @@ When("ingreso el campo {string} {int}") do |campo, valor|
 end
 
 Then("deberia ver {string}") do |string|
-    
     last_response.body.should =~ /#{string}/m 
 end
 

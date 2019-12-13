@@ -12,6 +12,7 @@ class Surface
         @cordx = 0
         @cordy = 0
         @car = Car.new
+        @cars = Array.new
     end
 
     def set_surface(x,y)
@@ -21,6 +22,10 @@ class Surface
 
     def set_car(car)
         @car = car
+    end
+
+    def set_cars(cars)
+        @cars = cars
     end
 
     def get_columns()
@@ -35,6 +40,13 @@ class Surface
         @car
     end
 
+    def get_cars()
+        @cars
+    end
+    
+    def get_cars_length()
+        @cars.length
+    end
     def is_valid_dimensions?()
         @columns > 0 && @rows > 0
     end
