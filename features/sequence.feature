@@ -8,7 +8,7 @@ Scenario:
     When ingreso en el campo "nombre" "Juan"
     And ingreso en el campo "columnas" 10 y en el campo "filas" 15
     And presiono el boton "Continuar"
-    Then deberia ver "Tienes que introducir una cantidad de autos"
+    Then deberia ver el mensaje "Tienes que introducir una cantidad de autos"
 
 Scenario:
     Given visito la pagina home
@@ -21,7 +21,7 @@ Scenario:
     And ingreso el campo "orientation_0" "N"
     And ingreso el campo "sequence_0" "AAA"
     And presiono el boton "Simular"
-    Then deberia ver "La secuencia fue AAA" 
+    Then deberia ver el mensaje "La secuencia fue AAA" 
 
 Scenario:
     Given visito la pagina home
@@ -34,4 +34,4 @@ Scenario:
     And ingreso el campo "orientation_0" "N"
     And ingreso el campo "sequence_0" "IAIA"
     And presiono el boton "Simular"
-    Then deberia ver "La secuencia fue IAIA" 
+    Then deberia ver el mensaje "La secuencia fue IAIA" 

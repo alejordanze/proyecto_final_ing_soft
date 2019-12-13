@@ -14,7 +14,7 @@ Scenario:
     And ingreso el campo "orientation_0" "N"
     And ingreso el campo "sequence_0" "IAIAIAIAA"
     And presiono el boton "Simular"
-    Then deberia ver "La orientacion final fue N" 
+    Then deberia ver el mensaje "La orientacion final fue N" 
 
 Scenario:
     Given visito la pagina home
@@ -27,4 +27,4 @@ Scenario:
     And ingreso el campo "orientation_0" "S"
     And ingreso el campo "sequence_0" "IAIAIAIAA"
     And presiono el boton "Simular"
-    Then deberia ver "La orientacion final fue S" 
+    Then deberia ver el mensaje "La orientacion final fue S" 
