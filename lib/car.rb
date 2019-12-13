@@ -6,6 +6,7 @@ class Car
     @cordx_final
     @cordy_final
     @orientation_final
+    @errors
     def initialize()
         @cordx = 0
         @cordy = 0
@@ -14,6 +15,7 @@ class Car
         @cordx_final = -1
         @cordy_final = -1
         @orientation_final = []
+        @errors = []
     end
     def set_cords(x,y)
         @cordx = x
@@ -28,6 +30,13 @@ class Car
         @cordy
     end
 
+    def add_error(error)
+        @errors.push(error)
+    end
+
+    def get_errors()
+        @errors
+    end
     def set_input_orientation(ori)
         if(ori.downcase == 'n') 
             @orientation = [-1,'y']

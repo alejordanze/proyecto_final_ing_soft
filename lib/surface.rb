@@ -43,7 +43,11 @@ class Surface
     def get_cars()
         @cars
     end
-    
+
+    def verify_cords?(x,y)
+        x >= 0 && x <= @columns && y >= 0 && y <= @columns
+    end
+
     def get_cars_length()
         @cars.length
     end

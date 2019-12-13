@@ -5,6 +5,8 @@
     </head>
     <body>
         <h1>Bienvenido al simulador <%= @name%></h1>
+        <p><%= @dimensions%></p>
+        <p><%= @nocars%></p>
         <form method="post" action="/simulator">
             <% @@surface.get_cars().each_with_index do |car, index| %>
                 <div class="fields"> 
@@ -26,18 +28,25 @@
                         <input class="my-input2" type='text' name='sequence_<%=index%>' id='sequence_<%=index%>' placeholder='Secuencia'>
                     </div>
                 </div>
-                <div class="results">
-                    <p>La posicion inicial fue <%= car.get_cordX()%>,<%= car.get_cordY()%></p>
-                    <p>La orientacion inicial fue <%= car.get_char_orientation()%></p>
-                    <p>La secuencia fue <%= car.get_sequence()%></p>
-                    <p>La posicion final fue <%= car.get_cordX_final()%>,<%= car.get_cordY_final()%></p>
-                    <p>La orientacion final fue <%= car.get_char_orientation_final()%></p>
-                </div>
+                <% if (!car.get_errors().include? "Las coordenadas son negativas o estan fuera de la superficie")%>
+                    <div class="results">
+                        <p>La posicion inicial fue <%= car.get_cordX()%>,<%= car.get_cordY()%></p>
+                        <p>La orientacion inicial fue <%= car.get_char_orientation()%></p>
+                        <p>La secuencia fue <%= car.get_sequence()%></p>
+                        <p>La posicion final fue <%= car.get_cordX_final()%>,<%= car.get_cordY_final()%></p>
+                        <p>La orientacion final fue <%= car.get_char_orientation_final()%></p>
+                    </div>
+                <% end %>
+                    <% car.get_errors().each do |error| %>
+                        <p><%= error%></p>
+                    <%end%> 
             <% end %>
 
                 <br><br>
-            <div class="button-float"><input type='submit' class="button" value='Simular' id='simular'></div>
+            <% if @show %>
+                <div class="button-float" ><input type='submit' class="button" value='Simular' id='simular'></div>
+            <%end%>
         </form>
-        <p><%= @dimensions%></p>
+        
     </body>
 </html>

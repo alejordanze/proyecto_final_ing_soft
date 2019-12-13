@@ -7,7 +7,7 @@ Scenario:
     Given visito la pagina home
     When ingreso en el campo "columnas" 10 y en el campo "filas" 15
     And presiono el boton "Continuar"
-    Then deberia ver el mensaje "La dimension actual es de 10x15"
+    Then deberia ver "Tienes que introducir una cantidad de autos"
 
 Scenario:
     Given visito la pagina home 
