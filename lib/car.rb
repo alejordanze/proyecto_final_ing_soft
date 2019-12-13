@@ -117,15 +117,15 @@ class Car
         ori == [-1,'y']
     end
 
-    def isSouth?()
+    def isSouth?(ori)
         ori == [1,'y']
     end
 
-    def isEast?()
+    def isEast?(ori)
         ori == [1,'x']
     end
 
-    def isWest?()
+    def isWest?(ori)
         ori == [-1,'x']
     end
 end
