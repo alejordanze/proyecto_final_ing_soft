@@ -100,7 +100,11 @@ class Game
     end
 
     def is_valid_moveX?(car)
-        car.get_cordY_final() + car.get_orientation_final()[0] > 0 && car.get_cordY_final()+car.get_orientation_final()[0] < @surface.get_columns()
+        car.get_cordX_final() + car.get_orientation_final()[0] >= 0 && car.get_cordX_final()+car.get_orientation_final()[0] < @surface.get_columns()
+    end
+
+    def is_valid_moveY?(car)
+        car.get_cordY_final() + car.get_orientation_final()[0] >= 0 && car.get_cordY_final()+car.get_orientation_final()[0] < @surface.get_rows()
     end
 
     def move_car()

@@ -7,6 +7,7 @@ RSpec.describe Game do
     before(:each) do
         @car=Car.new
         @surface = Surface.new
+        @surface.set_surface(10,10)
         @surface.set_car(@car)
         @game = Game.new(@surface)
     end
@@ -69,7 +70,7 @@ RSpec.describe Game do
         expect(@game.give_a_step_forward(@car).get_cordY_final()).to eq(0)
     end
 
-    it 'It returns car in cord x = 2, cord y = 1, and its orientation to E when car is in cord x =1, cord y =1, and its orientation to E when sequence is E ' do
+    it 'It returns car in cord x = 2, cord y = 1, and its orientation to E when car is in cord x =1, cord y =1, and its orientation to E when sequence is A ' do
         @car.set_orientation_final([1, 'x'])
         @car.set_cords_final(1,1)
         expect(@game.give_a_step_forward(@car).get_cordX_final()).to eq(2)
