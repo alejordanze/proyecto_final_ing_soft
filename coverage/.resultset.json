@@ -432,7 +432,7 @@
   },
   "RSpec": {
     "coverage": {
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/spec/Car_spec.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/spec/Car_spec.rb": [
         1,
         null,
         1,
@@ -612,7 +612,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/car.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/car.rb": [
         1,
         null,
         null,
@@ -622,13 +622,13 @@
         null,
         null,
         1,
-        113,
-        113,
-        113,
-        113,
-        113,
-        113,
-        113,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
+        121,
         null,
         1,
         4,
@@ -704,7 +704,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/spec/Game_spec.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/spec/Game_spec.rb": [
         1,
         1,
         1,
@@ -1041,7 +1041,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/Game.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/Game.rb": [
         1,
         null,
         1,
@@ -1158,7 +1158,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/surface.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/surface.rb": [
         1,
         null,
         1,
@@ -1168,16 +1168,16 @@
         null,
         null,
         1,
-        39,
-        39,
-        39,
-        39,
-        39,
+        43,
+        43,
+        43,
+        43,
+        43,
         null,
         null,
         1,
-        23,
-        23,
+        27,
+        27,
         null,
         null,
         1,
@@ -1197,19 +1197,19 @@
         null,
         null,
         1,
-        0,
+        4,
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/spec/Surface_spec.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/spec/Surface_spec.rb": [
         1,
         1,
         null,
         1,
         null,
         1,
-        2,
-        2,
+        6,
+        6,
         null,
         null,
         1,
@@ -1221,10 +1221,29 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null
       ]
     },
-    "timestamp": 1576196954
+    "timestamp": 1576211432
   }
 }
