@@ -34,4 +34,8 @@ class Surface
     def get_car()
         @car
     end
+
+    def is_valid_dimensions?()
+        @columns > 0 && @rows > 0
+    end
 end

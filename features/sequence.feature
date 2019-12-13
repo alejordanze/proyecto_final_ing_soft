@@ -6,6 +6,6 @@ Feature:
 
 Scenario: 
     Given visito la pagina simuladora
-    When ingreso en el campo "sequence" "IDIDIAAA"
+    When ingreso en el campo "sequence" "AAA"
     And presiono el boton "Simular"
-    Then deberia ver el mensaje "La secuencia es IDIDIAAA"
+    Then deberia ver "No se puede simular en una superficie con esas dimensiones"

@@ -319,3 +319,235 @@ D, [2019-12-12T19:03:10.900202 #7010] DEBUG -- : REQUESTING PAGE: GET / with {} 
 D, [2019-12-12T19:03:10.909619 #7010] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2019-12-12T19:03:10.913707 #7010] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2019-12-12T19:03:10.917948 #7010] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:34:19.381851 #7836] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:34:19.416617 #7836] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:34:19.556622 #7836] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:34:19.560652 #7836] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:34:19.596790 #7836] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:34:19.600435 #7836] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:34:19.604533 #7836] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:34:19.711431 #7836] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:34:19.715342 #7836] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:36:56.663379 #7896] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:36:56.697622 #7896] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:36:56.838181 #7896] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:36:56.847775 #7896] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:36:56.884766 #7896] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:36:56.888230 #7896] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:36:56.892243 #7896] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:36:57.007675 #7896] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:36:57.012553 #7896] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:10.799502 #7917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:10.835961 #7917] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:10.993307 #7917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:10.999329 #7917] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:11.035951 #7917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:11.040127 #7917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:11.044654 #7917] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:11.186246 #7917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:11.192854 #7917] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:30.940778 #7939] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:30.971328 #7939] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:31.006648 #7939] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:31.012181 #7939] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:31.018415 #7939] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:31.021822 #7939] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:31.025912 #7939] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:37:31.031979 #7939] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:37:31.036380 #7939] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:39:36.984200 #7989] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:39:37.026246 #7989] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:39:37.041705 #7989] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:39:37.051665 #7989] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:39:37.055242 #7989] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:39:37.060101 #7989] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:39:37.067143 #7989] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:39:37.074044 #7989] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:39:37.080979 #7989] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:40:13.214894 #8014] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:40:13.246677 #8014] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:40:13.260465 #8014] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:40:13.270188 #8014] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:40:13.274217 #8014] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:40:13.278499 #8014] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:40:13.282666 #8014] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:40:13.285787 #8014] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:40:13.290787 #8014] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:40:13.294527 #8014] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:40:13.299082 #8014] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:50:44.458825 #8211] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:50:44.487903 #8211] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:50:44.499805 #8211] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:50:44.504033 #8211] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:50:44.507300 #8211] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:50:44.511417 #8211] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:50:44.515789 #8211] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:50:44.524984 #8211] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:50:44.529185 #8211] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:50:44.535455 #8211] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:50:44.539673 #8211] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:36.167955 #8371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:36.198533 #8371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:36.233753 #8371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:36.238245 #8371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:36.241932 #8371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:36.246417 #8371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:36.249630 #8371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:36.252860 #8371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:36.257911 #8371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:36.263428 #8371] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:36.271980 #8371] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:54.332110 #8395] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:54.370895 #8395] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:54.421402 #8395] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:54.426811 #8395] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:54.432452 #8395] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:54.436651 #8395] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:54.441720 #8395] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:54.445051 #8395] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:54.449040 #8395] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T19:59:54.459101 #8395] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T19:59:54.463751 #8395] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:00:12.187927 #8422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:00:12.224217 #8422] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:00:12.255025 #8422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:00:12.266186 #8422] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:00:12.269485 #8422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:00:12.273783 #8422] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:00:12.278459 #8422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:00:12.282570 #8422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:00:12.287141 #8422] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:00:12.292343 #8422] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:00:12.296448 #8422] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:10:41.460877 #8589] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:10:41.488941 #8589] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:10:41.500286 #8589] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:10:41.509009 #8589] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:10:41.513333 #8589] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:10:41.518229 #8589] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:10:41.521576 #8589] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:10:41.524723 #8589] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:10:41.528573 #8589] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:10:41.532428 #8589] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:10:41.537235 #8589] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:13:18.330492 #8635] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:13:18.362327 #8635] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:13:18.374406 #8635] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:13:18.378443 #8635] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:13:18.381852 #8635] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:13:18.386792 #8635] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:13:18.391772 #8635] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:13:18.401928 #8635] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:13:18.408360 #8635] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:13:18.412879 #8635] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:13:18.418028 #8635] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:27.813828 #8732] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:27.846367 #8732] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:27.858180 #8732] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:27.867446 #8732] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:27.871025 #8732] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:27.875912 #8732] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:27.879407 #8732] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:27.882807 #8732] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:27.887117 #8732] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:27.891680 #8732] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:27.895816 #8732] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:54.585332 #8757] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:54.614452 #8757] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:54.625921 #8757] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:54.630650 #8757] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:54.639264 #8757] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:54.644190 #8757] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:54.647231 #8757] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:54.650533 #8757] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:54.654498 #8757] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:17:54.658463 #8757] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:17:54.662745 #8757] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:23:33.755483 #8859] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:23:33.786155 #8859] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:23:33.798471 #8859] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:23:33.807221 #8859] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:23:33.811106 #8859] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:23:33.816021 #8859] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:23:33.819515 #8859] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:23:33.822857 #8859] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:23:33.826662 #8859] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:23:33.830592 #8859] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:23:33.834631 #8859] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:26:57.800882 #8938] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:26:57.830055 #8938] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:26:57.842230 #8938] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:26:57.850477 #8938] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:26:57.853553 #8938] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:26:57.859065 #8938] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:26:57.863418 #8938] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:26:57.866781 #8938] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:26:57.870773 #8938] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:26:57.874527 #8938] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:26:57.879435 #8938] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:27:43.877759 #8973] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:27:43.911041 #8973] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:27:43.921580 #8973] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:27:43.933258 #8973] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:27:43.938103 #8973] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:27:43.942868 #8973] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:27:43.948848 #8973] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:27:43.954040 #8973] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:27:43.958322 #8973] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:27:43.964142 #8973] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:27:43.968890 #8973] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:06.158628 #9005] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:06.189158 #9005] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:06.200717 #9005] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:06.206000 #9005] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:06.209995 #9005] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:06.214149 #9005] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:06.217331 #9005] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:06.225416 #9005] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:06.229370 #9005] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:06.233180 #9005] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:06.237749 #9005] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:19.248531 #9025] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:19.278594 #9025] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:19.291217 #9025] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:19.300917 #9025] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:19.305029 #9025] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:19.309332 #9025] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:19.312911 #9025] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:19.316405 #9025] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:19.320634 #9025] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:19.325036 #9025] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:19.329492 #9025] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:55.198114 #9043] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:55.228688 #9043] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:55.240412 #9043] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:55.244515 #9043] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:55.252299 #9043] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:55.257428 #9043] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:55.261110 #9043] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:55.264386 #9043] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:55.268131 #9043] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:28:55.272041 #9043] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:28:55.276421 #9043] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"IDIDIAAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:11.080100 #9118] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:11.108965 #9118] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:11.121036 #9118] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:11.125087 #9118] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:11.128123 #9118] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:11.132942 #9118] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:11.136573 #9118] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:11.144976 #9118] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:11.149206 #9118] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:11.153008 #9118] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:11.157970 #9118] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:44.896463 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:44.934797 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:44.946537 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:44.955622 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:44.958653 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:44.962630 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:44.965956 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:44.969795 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:44.975480 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T20:32:44.992249 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T20:32:44.996238 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
