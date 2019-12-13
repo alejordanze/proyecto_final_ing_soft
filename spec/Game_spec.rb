@@ -105,6 +105,26 @@ RSpec.describe Game do
         expect(@game.get_cant_cars()).to eq(5)
     end
 
+    it 'It returns true when orientatios is n ' do
+        expect(@game.verify_orientation?('n')).to eq(true)
+    end
+
+    it 'It returns true when orientatios is s ' do
+        expect(@game.verify_orientation?('s')).to eq(true)
+    end
+
+    it 'It returns true when orientatios is o ' do
+        expect(@game.verify_orientation?('o')).to eq(true)
+    end
+
+    it 'It returns true when orientatios is e ' do
+        expect(@game.verify_orientation?('e')).to eq(true)
+    end
+
+    it 'It returns true when orientatios is x ' do
+        expect(@game.verify_orientation?('x')).to eq(false)
+    end
+        
     it 'It returns car in cord x =1, cord y = 0, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is A in a surface of 10x10' do
         @car.set_sequence('a')
         @car.set_cords_final(1,1)

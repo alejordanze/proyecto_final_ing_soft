@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/app.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/app.rb": [
         1,
         1,
         1,
@@ -87,7 +87,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/surface.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/surface.rb": [
         1,
         null,
         1,
@@ -146,7 +146,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/car.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/car.rb": [
         1,
         null,
         null,
@@ -288,7 +288,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/Game.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/Game.rb": [
         1,
         null,
         1,
@@ -479,12 +479,12 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/features/step_definitions/dimensions_steps.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/features/step_definitions/dimensions_steps.rb": [
         1,
         17,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/features/step_definitions/home_steps.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/features/step_definitions/home_steps.rb": [
         1,
         14,
         null,
@@ -493,17 +493,17 @@
         17,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/features/step_definitions/initial_position_steps.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/features/step_definitions/initial_position_steps.rb": [
         1,
         11,
         11,
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/features/step_definitions/orientation_steps.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/features/step_definitions/orientation_steps.rb": [
 
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/features/step_definitions/sequence_steps.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/features/step_definitions/sequence_steps.rb": [
         1,
         0,
         null,
@@ -526,7 +526,7 @@
         8,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/features/step_definitions/template_steps.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/features/step_definitions/template_steps.rb": [
         1,
         0,
         null,
@@ -567,11 +567,11 @@
         null
       ]
     },
-    "timestamp": 1576248648
+    "timestamp": 1576249609
   },
   "RSpec": {
     "coverage": {
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/spec/Car_spec.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/spec/Car_spec.rb": [
         1,
         null,
         1,
@@ -790,7 +790,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/car.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/car.rb": [
         1,
         null,
         null,
@@ -801,14 +801,14 @@
         null,
         null,
         1,
-        141,
-        141,
-        141,
-        141,
-        141,
-        141,
-        141,
-        141,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
+        151,
         null,
         1,
         4,
@@ -932,7 +932,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/spec/Game_spec.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/spec/Game_spec.rb": [
         1,
         1,
         1,
@@ -940,17 +940,12 @@
         1,
         null,
         1,
-        40,
-        40,
-        40,
-        40,
-        40,
-        40,
-        null,
-        null,
-        1,
-        1,
-        1,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
         null,
         null,
         1,
@@ -991,7 +986,6 @@
         1,
         1,
         1,
-        1,
         null,
         null,
         1,
@@ -1020,6 +1014,30 @@
         null,
         1,
         1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -1032,10 +1050,12 @@
         null,
         1,
         1,
-        1,
         null,
         null,
         1,
+        1,
+        null,
+        null,
         1,
         1,
         null,
@@ -1294,7 +1314,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/Game.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/Game.rb": [
         1,
         null,
         1,
@@ -1304,11 +1324,11 @@
         null,
         null,
         1,
-        40,
-        40,
-        40,
-        40,
-        40,
+        45,
+        45,
+        45,
+        45,
+        45,
         null,
         null,
         1,
@@ -1461,7 +1481,7 @@
         null,
         null,
         1,
-        0,
+        5,
         null,
         null,
         1,
@@ -1485,7 +1505,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/lib/surface.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/lib/surface.rb": [
         1,
         null,
         1,
@@ -1495,21 +1515,21 @@
         null,
         null,
         1,
-        49,
-        49,
-        49,
-        49,
-        49,
-        49,
+        54,
+        54,
+        54,
+        54,
+        54,
+        54,
         null,
         null,
         1,
-        68,
-        68,
+        73,
+        73,
         null,
         null,
         1,
-        45,
+        50,
         null,
         null,
         1,
@@ -1544,7 +1564,7 @@
         null,
         null
       ],
-      "/Users/alejandrojordan/Documents/proyecto-ingenieria-de-software-auto/spec/Surface_spec.rb": [
+      "/home/ivy/Desktop/proyecto_final_ing_soft/spec/Surface_spec.rb": [
         1,
         1,
         null,
@@ -1609,6 +1629,6 @@
         null
       ]
     },
-    "timestamp": 1576248650
+    "timestamp": 1576249611
   }
 }
