@@ -40,7 +40,9 @@ class Game
         if(isNorth?(car) || isSouth?(car))
             car.set_cordY_final(car.get_cordY_final()+car.get_orientation_final()[0])
         elsif(isEast?(car) || isWest?(car))
-            car.set_cordX_final(car.get_cordX_final()+car.get_orientation_final()[0])
+            if(is_valid_moveX?(car))
+                car.set_cordX_final(car.get_cordX_final()+car.get_orientation_final()[0])
+            end
         end
         return car
     end
@@ -95,6 +97,10 @@ class Game
 
     def isWest?(car)
         car.get_orientation_final() == [-1,'x']
+    end
+
+    def is_valid_moveX?(car)
+        car.get_cordY_final() + car.get_orientation_final()[0] > 0 && car.get_cordY_final()+car.get_orientation_final()[0] < @surface.get_columns()
     end
 
     def move_car()

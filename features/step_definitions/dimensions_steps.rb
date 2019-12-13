@@ -3,11 +3,12 @@ Given("visito la pagina simuladora") do
 end
 
 When("ingreso en el campo columnas {int}") do |x|
-    visit '/simulate', :post, "columnas=#{x}"
+    fill_in('columnas', :with => x)
+
 end
   
 When("ingreso en el campo filas {int}") do |int|
-    visit '/simulate', :post, "filas=#{int}"
+    fill_in('filas', :with => int)
 end
 
   

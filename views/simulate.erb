@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <h1>Bienvenido al simulador <%= @name%></h1>
+        <form method="post" action="/simulator">
+            <div class="fields"> 
+                <h3 class="title-no">Ingresa la posicion inicial y secuencia del auto</h3>
+                <div class="field-float">
+                    <p class="field-name">Coordenada x:</p> 
+                    <input class="my-input"  type='text' name='cord_x' id='cord_x' placeholder='Coordenada x'>
+                </div>
+                <div class="field-float mrg-left">
+                    <p class="field-name">Coordenada y:</p> 
+                    <input class="my-input" type='text' name='cord_y' id='cord_y' placeholder='Coordenada y'>
+                </div>
+                 <div class="field-float mrg-left">
+                    <p class="field-name">Orientacion(N,S,E,O):</p> 
+                    <input class="my-input" type='text' name='orientation' id='orientation' placeholder='Orientacion'>
+                </div>
+                <div class="field-float mrg-left">
+                    <p class="field-name">Secuencia (IDAADI):</p> 
+                    <input class="my-input2" type='text' name='sequence' id='sequence' placeholder='Secuencia'>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="button-float"><input type='submit' class="button" value='Simular' id='simular'></div>
+        </form>
+        <p><%= @dimensions%></p>
+        <p><%= @msg_cords%></p>
+        <p><%= @msg_orientation%></p>
+        <p><%= @msg_seq%></p>
+        <p><%= @msg_final_cords%></p>
+        <p><%= @msg_orientation_final%></p>
+    </body>
+</html>

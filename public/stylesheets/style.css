@@ -36,16 +36,22 @@ body{
 }
 .surface-float{
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
-
+.fields{
+    margin-bottom: 10px !important;
+    overflow: hidden;
+}
 .pos-float{
     float: left;
     margin-left: 40px;
 }
 
 .button-float{
+    margin-top: 10px !important;
     clear: left;
+    overflow: hidden;
+
 }
 
 .button{

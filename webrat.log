@@ -551,3 +551,735 @@ D, [2019-12-12T20:32:44.969795 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} 
 D, [2019-12-12T20:32:44.975480 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2019-12-12T20:32:44.992249 #9145] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2019-12-12T20:32:44.996238 #9145] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T21:11:40.365964 #9729] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T21:11:40.409005 #9729] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T21:11:40.422865 #9729] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T21:11:40.431803 #9729] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"0", "filas"=>"0", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T21:11:40.435043 #9729] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T21:11:40.439679 #9729] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"-1", "filas"=>"-2", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T21:11:40.443732 #9729] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T21:11:40.447510 #9729] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T21:11:40.451309 #9729] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"10", "filas"=>"15", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T21:11:40.455585 #9729] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T21:11:40.460000 #9729] DEBUG -- : REQUESTING PAGE: POST /simulate with {"columnas"=>"", "filas"=>"", "cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T22:36:06.621145 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T22:36:06.662572 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T22:36:06.670888 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T22:36:06.677362 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T22:36:06.686684 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T22:36:06.691041 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T22:36:06.704146 #10972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.059182 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.098251 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.109689 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.116784 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.125487 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.130146 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:07:38.139258 #11733] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.671532 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.705273 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.718112 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.728503 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.736931 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.741316 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:08:05.748365 #11762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.919706 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.950484 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.962234 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.967960 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.975872 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.980082 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:11:18.985279 #11835] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.628219 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.666655 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.681352 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.689688 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.700066 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.705397 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:13:19.712891 #11878] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.691949 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.726515 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.740044 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.747817 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.770405 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.776649 #11917] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:14:00.800164 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:00.811102 #11917] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.198561 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.234113 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.247110 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.255080 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.262090 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.266355 #11965] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:14:59.274977 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:14:59.280718 #11965] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.475268 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.509239 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.516092 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.527571 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.533923 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.537668 #11997] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:15:38.544566 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:15:38.550664 #11997] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.189991 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.223819 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.235206 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.240635 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.248449 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.252466 #12028] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:16:32.259946 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:32.266613 #12028] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.619035 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.654226 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.668794 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.675309 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.682645 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.686376 #12054] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:16:49.697141 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:16:49.704097 #12054] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.098507 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.133817 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.142082 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.154075 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.162553 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.164668 #12091] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:17:36.168984 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.176121 #12091] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:17:36.178984 #12091] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:21:35.803495 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.839170 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.851215 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.858481 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.866970 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.869382 #12205] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-12T23:21:35.873754 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.882629 #12205] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-12T23:21:35.885140 #12205] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:02:32.835612 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.878488 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.890765 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.897352 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.905410 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.907339 #14335] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:02:32.911741 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.917705 #14335] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:02:32.919766 #14335] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:03:41.364135 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.393750 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.404483 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.410328 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.417487 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.420456 #14541] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:03:41.425631 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.431509 #14541] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:03:41.433496 #14541] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:04:33.488196 #14636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:33.521662 #14636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:33.528791 #14636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:33.534577 #14636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:33.542796 #14636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:33.544920 #14636] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:04:33.555278 #14636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.526534 #14659] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.555566 #14659] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.561712 #14659] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.569320 #14659] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.576638 #14659] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.578481 #14659] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:04:57.586986 #14659] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.592304 #14659] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:04:57.593537 #14659] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T00:05:22.522102 #14683] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:22.556066 #14683] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:22.563699 #14683] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:22.569351 #14683] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:22.578467 #14683] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:22.589545 #14683] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:05:22.600586 #14683] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:22.607430 #14683] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.847201 #14709] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.882349 #14709] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.894248 #14709] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.900247 #14709] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.908518 #14709] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.912209 #14709] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:05:42.919290 #14709] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:05:42.926476 #14709] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.902361 #14754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.931974 #14754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.938001 #14754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.948462 #14754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.955816 #14754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.959997 #14754] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:09:09.967533 #14754] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:09:09.973239 #14754] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.322299 #14785] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.361263 #14785] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.366854 #14785] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.372630 #14785] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.380448 #14785] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.384451 #14785] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:10:55.391802 #14785] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:10:55.399701 #14785] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.624544 #14800] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.659702 #14800] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.666826 #14800] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.673086 #14800] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.679274 #14800] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.682709 #14800] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:11:48.691448 #14800] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:11:48.697796 #14800] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.252138 #14844] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.279573 #14844] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:13:49.329127 #14844] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.333255 #14844] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:13:49.337222 #14844] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.341765 #14844] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:13:49.345435 #14844] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.349804 #14844] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.353839 #14844] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:13:49.361533 #14844] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:13:49.367715 #14844] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.828720 #14864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.861933 #14864] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:14:45.877963 #14864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.883411 #14864] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:14:45.887421 #14864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.891789 #14864] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:14:45.895092 #14864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.898405 #14864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.902706 #14864] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:14:45.907174 #14864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:14:45.913319 #14864] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.079154 #14890] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.113558 #14890] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:10.126195 #14890] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.130094 #14890] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:10.133645 #14890] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.144887 #14890] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:10.148512 #14890] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.151895 #14890] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.157189 #14890] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:10.160471 #14890] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:10.166407 #14890] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.505466 #14909] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.535742 #14909] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:32.551646 #14909] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.555314 #14909] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:32.558415 #14909] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.563065 #14909] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:32.566918 #14909] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.570082 #14909] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.573367 #14909] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:15:32.576902 #14909] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:15:32.583394 #14909] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.118744 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.154191 #14936] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:13.165340 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.169109 #14936] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:13.173071 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.177302 #14936] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:13.180932 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.184038 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.187555 #14936] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:13.190788 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:13.197272 #14936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.742062 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.770101 #14945] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:26.785467 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.790703 #14945] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:26.794804 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.798487 #14945] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:26.801575 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.804577 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.807893 #14945] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:26.810852 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:26.817151 #14945] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:35.922398 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:35.955273 #14954] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:35.974611 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:35.978269 #14954] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:35.981663 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:35.985443 #14954] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:35.988537 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:35.991670 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:35.995014 #14954] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:16:35.998336 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:16:36.005653 #14954] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.397500 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.426947 #15036] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:25:20.441763 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.445428 #15036] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:25:20.448472 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.452891 #15036] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:25:20.456293 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.459635 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.463027 #15036] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:25:20.466113 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:25:20.472063 #15036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.077740 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.116386 #15109] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:43:01.136499 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.141819 #15109] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:43:01.144864 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.149204 #15109] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:43:01.152484 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.156193 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.160986 #15109] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:43:01.166907 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:43:01.175622 #15109] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.393328 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.428665 #15269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:50:18.440461 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.444697 #15269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:50:18.447742 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.451129 #15269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:50:18.454339 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.457343 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.460735 #15269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:50:18.464021 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:50:18.470172 #15269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.613615 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.643934 #15304] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:51:36.655203 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.658677 #15304] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:51:36.661454 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.672131 #15304] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:51:36.675661 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.679057 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.682570 #15304] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:51:36.685782 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:51:36.692830 #15304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.187935 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.224051 #15338] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:06.248900 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.253046 #15338] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:06.265638 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.273604 #15338] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:06.278461 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.282214 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.286306 #15338] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:06.289619 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:06.295714 #15338] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.886223 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.917791 #15348] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:13.937412 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.941537 #15348] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:13.945137 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.948948 #15348] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:13.952859 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.956043 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.960699 #15348] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:13.965212 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:13.971584 #15348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:22.409641 #15367] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:22.439798 #15367] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:22.458497 #15367] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:22.462873 #15367] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:22.466329 #15367] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:22.470241 #15367] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:22.473555 #15367] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:22.476822 #15367] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:53:22.480416 #15367] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:53:22.484215 #15367] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.874410 #15386] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.900412 #15386] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:19.904439 #15386] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.906163 #15386] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:19.915087 #15386] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.917876 #15386] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:19.922527 #15386] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.929376 #15386] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.933193 #15386] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:19.940130 #15386] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:19.941855 #15386] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:42.545449 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:42.573846 #15400] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:42.578446 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:42.581142 #15400] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:42.584894 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:42.586670 #15400] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:42.596025 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:42.603278 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:42.607051 #15400] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:42.614010 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:42.617048 #15400] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:42.622008 #15400] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.841847 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.876166 #15411] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:49.893888 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.898367 #15411] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:49.902231 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.905945 #15411] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:49.909062 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.912905 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.916865 #15411] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:54:49.919900 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:54:49.925288 #15411] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.420741 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.452519 #15438] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:55:30.463726 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.467404 #15438] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:55:30.470643 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.476934 #15438] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:55:30.486209 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.489401 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.493266 #15438] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:55:30.497837 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:55:30.505225 #15438] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.486589 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.517839 #15469] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:17.536617 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.540489 #15469] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:17.543315 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.546780 #15469] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:17.549709 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.552429 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.555615 #15469] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:17.558653 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:17.563932 #15469] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:17.568389 #15469] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.705713 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.737819 #15493] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:40.752796 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.756751 #15493] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:40.761068 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.765219 #15493] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:40.774564 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.778002 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.784602 #15493] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:40.788078 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:56:40.791696 #15493] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:56:40.795861 #15493] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.691426 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.732293 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.739034 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.744561 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.751196 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.756451 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:33.762672 #15555] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.508456 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.536976 #15579] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:58:44.553176 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.557599 #15579] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:58:44.560783 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.564255 #15579] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:58:44.567365 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.570144 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.573415 #15579] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:58:44.576778 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T00:58:44.581740 #15579] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T00:58:44.586218 #15579] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.288772 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.317068 #15613] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:00:15.328545 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.336982 #15613] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:00:15.341437 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.346557 #15613] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:00:15.350323 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.353306 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.356665 #15613] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:00:15.360126 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:00:15.365477 #15613] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:00:15.369148 #15613] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.617608 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.651269 #15675] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:05:56.668164 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.672522 #15675] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:05:56.675652 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.679229 #15675] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:05:56.682324 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.685673 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.690096 #15675] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:05:56.693252 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:05:56.697682 #15675] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:05:56.701796 #15675] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.913077 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.946789 #15697] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:09.962956 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.968117 #15697] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:09.971820 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.976067 #15697] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:09.979622 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.983043 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.988107 #15697] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:09.992286 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:09.996078 #15697] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:10.000815 #15697] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.476866 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.513127 #15713] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:22.533032 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.537709 #15713] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:22.540974 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.546779 #15713] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:22.551775 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.556433 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.562362 #15713] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:22.567785 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T01:07:22.572707 #15713] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T01:07:22.577144 #15713] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.697580 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.737201 #15860] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:54:14.757575 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.761679 #15860] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:54:14.764765 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.768643 #15860] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:54:14.772506 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.776643 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.781257 #15860] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:54:14.785513 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:54:14.789243 #15860] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:54:14.793336 #15860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.180075 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.215367 #15995] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:57:56.232219 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.236275 #15995] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:57:56.239113 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.242487 #15995] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:57:56.245555 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.249839 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.253578 #15995] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:57:56.256858 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T03:57:56.261199 #15995] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T03:57:56.264851 #15995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.610377 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.647421 #16087] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:04:24.666366 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.670478 #16087] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:04:24.673600 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.676978 #16087] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:04:24.680548 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.684727 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.686580 #16087] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:04:24.690174 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.693675 #16087] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:04:24.697660 #16087] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:04:24.699749 #16087] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.292951 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.320834 #16101] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.331680 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:06.364980 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.370008 #16101] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.372087 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:06.375215 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.378843 #16101] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.381556 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:06.385375 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.387723 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.390881 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.397112 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.401033 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.404789 #16101] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:06.409948 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:06.414156 #16101] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:06.416612 #16101] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:33.959213 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:33.987223 #16129] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:33.993405 #16129] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:34.031385 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:34.036096 #16129] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:34.038022 #16129] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:34.041050 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:34.044364 #16129] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:34.046323 #16129] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:34.050522 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:34.052705 #16129] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:34.056092 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:34.059474 #16129] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:34.061192 #16129] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:34.068863 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:34.072662 #16129] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:34.074819 #16129] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:05:34.078426 #16129] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.442881 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.474045 #16142] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:40.489438 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.492999 #16142] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:40.497502 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.502049 #16142] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:40.505766 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.508994 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.512601 #16142] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:40.516155 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:05:40.521135 #16142] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:05:40.524310 #16142] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.919118 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.949901 #16170] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:06:27.960984 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.965398 #16170] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:06:27.968956 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.972692 #16170] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:06:27.982350 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.985835 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.989727 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.994720 #16170] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:06:27.998124 #16170] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:06:27.999923 #16170] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:08:12.283098 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.315696 #16198] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:08:12.332686 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.336886 #16198] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:08:12.340149 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.344233 #16198] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:08:12.347484 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.350255 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.353972 #16198] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:08:12.357139 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.365470 #16198] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:08:12.369102 #16198] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:08:12.370974 #16198] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:31.411234 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.438410 #16226] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:31.453452 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.458159 #16226] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:31.462120 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.466144 #16226] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:31.469541 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.472546 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.475780 #16226] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:31.478649 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.481897 #16226] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:31.485488 #16226] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:31.488063 #16226] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.408866 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.436771 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.451907 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.455533 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.458627 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.463298 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.467027 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.469982 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.473299 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.476521 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.480024 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.483745 #16245] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:09:49.486385 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_x=1" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:09:49.488185 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_y=1" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:09:49.489672 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with "orientation=N" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:09:49.496230 #16245] DEBUG -- : REQUESTING PAGE: POST /simulate with "sequence=AAA" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:09:49.500112 #16245] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:09:49.502003 #16245] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulator"}
+D, [2019-12-13T04:10:16.355985 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.387951 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:10:16.407090 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.411209 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:10:16.415122 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.419345 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:10:16.423599 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.427236 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.431648 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:10:16.434696 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.440001 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:10:16.444568 #16269] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:10:16.446864 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_x=1" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:10:16.448666 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_y=1" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:10:16.450327 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with "orientation=N" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:10:16.458421 #16269] DEBUG -- : REQUESTING PAGE: POST /simulate with "sequence=AAA" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:10:16.463404 #16269] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:10:16.465923 #16269] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulator"}
+D, [2019-12-13T04:11:19.195236 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.222545 #16289] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.239428 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.245179 #16289] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.248708 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.252970 #16289] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.256064 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.258942 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.262378 #16289] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.265598 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.270523 #16289] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.274347 #16289] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:19.276955 #16289] DEBUG -- : REQUESTING PAGE: POST / with "cord_x=1" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.278356 #16289] DEBUG -- : REQUESTING PAGE: POST / with "cord_y=1" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.279575 #16289] DEBUG -- : REQUESTING PAGE: POST / with "orientation=N" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:19.280849 #16289] DEBUG -- : REQUESTING PAGE: POST / with "sequence=AAA" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.184431 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.217028 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.231787 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.235372 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.239325 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.243144 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.246589 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.249669 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.253117 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.256976 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.261319 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.264398 #16308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:11:32.266096 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_x=1" and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:11:32.267621 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_y=1" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:11:32.269168 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with "orientation=N" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:11:32.277018 #16308] DEBUG -- : REQUESTING PAGE: POST /simulate with "sequence=AAA" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:11:32.281641 #16308] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:11:32.283896 #16308] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulator"}
+D, [2019-12-13T04:15:24.077047 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.110163 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:24.127528 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.131336 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:24.134357 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.137852 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:24.140967 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.144022 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.147594 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:24.150847 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.154508 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:24.158184 #16345] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:24.163194 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:24.165127 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_x=1" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:15:24.172139 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with "cord_y=1" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:15:24.174316 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with "orientation=N" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:15:24.176526 #16345] DEBUG -- : REQUESTING PAGE: POST /simulate with "sequence=AAA" and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:15:24.179358 #16345] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"", "cord_y"=>"", "orientation"=>"", "sequence"=>""} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:15:24.181511 #16345] DEBUG -- : REQUESTING PAGE: GET /simulate with {} and HTTP headers {"HTTP_REFERER"=>"/simulator"}
+D, [2019-12-13T04:15:54.313012 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:54.340255 #16372] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:54.355320 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:54.358952 #16372] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:54.361801 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:54.365660 #16372] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:54.369483 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:54.372995 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:54.380569 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:15:54.384249 #16372] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:15:54.387966 #16372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.166364 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.199712 #16393] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:04.213014 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.216918 #16393] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:04.221375 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.226329 #16393] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:04.235980 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.239042 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.242932 #16393] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:04.246107 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.250359 #16393] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:04.254749 #16393] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:04.259132 #16393] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:04.264347 #16393] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"1", "cord_y"=>"1", "orientation"=>"N", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:17:31.328588 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.355910 #16413] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:31.373027 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.376447 #16413] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:31.379222 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.383437 #16413] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:31.387140 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.390587 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.393829 #16413] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:31.396848 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.400379 #16413] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:31.404147 #16413] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:31.408894 #16413] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:31.419242 #16413] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"1", "cord_y"=>"1", "orientation"=>"N", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/simulate"}
+D, [2019-12-13T04:17:51.798590 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.827342 #16439] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:51.844766 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.851067 #16439] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:51.854580 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.858585 #16439] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:51.861785 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.864854 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.868241 #16439] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:51.871747 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.876573 #16439] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:51.881510 #16439] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T04:17:51.886282 #16439] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T04:17:51.891786 #16439] DEBUG -- : REQUESTING PAGE: POST /simulator with {"cord_x"=>"1", "cord_y"=>"1", "orientation"=>"N", "sequence"=>"AAA"} and HTTP headers {"HTTP_REFERER"=>"/simulate"}

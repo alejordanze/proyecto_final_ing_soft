@@ -59,6 +59,7 @@ class Car
     def get_orientation_final()
         @orientation_final
     end
+    
     def set_sequence(seq)
         @sequence = seq
     end

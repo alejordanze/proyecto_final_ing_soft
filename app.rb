@@ -15,7 +15,19 @@ get '/' do
 end
 
 post '/simulate' do
+    @name = params[:nombre]
     @@surface.set_surface(params[:columnas].to_i, params[:filas].to_i)
+    if(@@surface.is_valid_dimensions?())
+        @dimensions = "La dimension actual es de #{@@surface.get_columns()}x#{@@surface.get_rows()}"
+        @cant_autos = params[:cant_autos]
+    else
+        @dimensions = "No se puede simular en una superficie con esas dimensiones"
+    end
+    
+    erb :simulate
+end
+
+post '/simulator' do 
     print('IS VALID DIMENSIONS ==> ', @@surface.is_valid_dimensions?())
     if(@@surface.is_valid_dimensions?())
         @@surface.get_car().set_cords(params[:cord_x].to_i, params[:cord_y].to_i)
@@ -28,7 +40,7 @@ post '/simulate' do
     else
         @dimensions = "No se puede simular en una superficie con esas dimensiones"
     end
-    erb :home
+    erb :simulate
 end
 
 def getValues()
