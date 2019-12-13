@@ -1539,3 +1539,14 @@ D, [2019-12-13T07:36:07.671139 #18875] DEBUG -- : REQUESTING PAGE: GET / with {}
 D, [2019-12-13T07:36:07.674577 #18875] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2019-12-13T07:36:07.678764 #18875] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2019-12-13T07:36:07.683541 #18875] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T08:59:52.916602 #28009] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T08:59:52.938123 #28009] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T08:59:52.948940 #28009] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T08:59:52.956331 #28009] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"0", "filas"=>"0", "cant_autos"=>"1"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T08:59:52.959438 #28009] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T08:59:52.963182 #28009] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"-1", "filas"=>"-2", "cant_autos"=>"1"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T08:59:52.966186 #28009] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T08:59:52.968660 #28009] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T08:59:52.971901 #28009] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"Juan", "columnas"=>"", "filas"=>"", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T08:59:52.974898 #28009] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T08:59:52.978697 #28009] DEBUG -- : REQUESTING PAGE: POST /simulate with {"nombre"=>"", "columnas"=>"10", "filas"=>"15", "cant_autos"=>""} and HTTP headers {"HTTP_REFERER"=>"/"}

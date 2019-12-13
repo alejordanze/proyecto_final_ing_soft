@@ -6,6 +6,7 @@ RSpec.describe Game do
 
     before(:each) do
         @car=Car.new
+        @cars = Array.new{Car.new}
         @surface = Surface.new
         @surface.set_surface(10,10)
         @surface.set_car(@car)
@@ -341,6 +342,19 @@ RSpec.describe Game do
         expect(@car.get_cordX_final()).to eq(1)
         expect(@car.get_cordY_final()).to eq(1)
         expect(@car.get_orientation_final()).to eq([-1,'y'])
+    end
+
+    it 'It returns car in cord x = 1, cord y = 1, and orientation = N when car is in cord x =1, cord y = 2, and orientation = N when sequence is IAIAIAIAA in a surface of 5x5' do
+        @car.set_sequence('iaiaiaiaad')
+        @car.set_cords_final(1,2)
+        @car.set_input_orientation('N')
+        @surface.set_surface(5,5)
+        @cars.push(@car)
+        @surface.set_cars(@cars)
+        @game.move_cars()
+        expect(@car.get_cordX_final()).to eq(1)
+        expect(@car.get_cordY_final()).to eq(1)
+        expect(@car.get_orientation_final()).to eq([1,'x'])
     end
     
 end
