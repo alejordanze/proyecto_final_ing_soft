@@ -94,6 +94,16 @@ RSpec.describe Game do
         expect(@game.is_forward?('a')).to eq(true)
     end
 
+    it 'It returns quantity of cars in the game when it is 1 ' do
+        @game.set_cant_cars(1)
+        expect(@game.get_cant_cars()).to eq(1)
+    end
+
+    it 'It returns quantity of cars in the game when there are 5 ' do
+        @game.set_cant_cars(5)
+        expect(@game.get_cant_cars()).to eq(5)
+    end
+
     it 'It returns car in cord x =1, cord y = 0, and orientation = N when car is in cord x =1, cord y =1, and orientation = N when sequence is A in a surface of 10x10' do
         @car.set_sequence('a')
         @car.set_cords_final(1,1)
