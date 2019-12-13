@@ -49,7 +49,7 @@ class Surface
     end
 
     def get_cars_length()
-        @cars.length
+        return @cars.length  
     end
     def is_valid_dimensions?()
         @columns > 0 && @rows > 0

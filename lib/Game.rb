@@ -172,7 +172,6 @@ class Game
         columns = @@surface.get_columns()
         cars = @@surface.get_cars()
         length = @@surface.get_cars_length()
-        print('ACTUAL LENGTH OF CARS ', length)
         cars.each_with_index do |car, index| 
             car.get_sequence().each_char do |step|
                 if(is_turn_left?(step))

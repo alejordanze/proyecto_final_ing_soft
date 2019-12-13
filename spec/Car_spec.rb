@@ -86,6 +86,26 @@ RSpec.describe Car do
         expect(@car.get_orientation_final()).to eq('O')
     end
 
+    it 'It returns N when orientatiom is N' do
+        @car.set_input_orientation('N')
+        expect(@car.get_char_orientation_final()).to eq('N')
+    end
+
+    it 'It returns S when orientatiom is S' do
+        @car.set_input_orientation('S')
+        expect(@car.get_char_orientation_final()).to eq('S')
+    end
+
+    it 'It returns E when orientatiom is E' do
+        @car.set_input_orientation('E')
+        expect(@car.get_char_orientation_final()).to eq('E')
+    end
+
+    it 'It returns O when orientatiom is O' do
+        @car.set_input_orientation('O')
+        expect(@car.get_char_orientation_final()).to eq('O')
+    end
+
     it 'It returns I when sequence is I' do
         @car.set_sequence('I')
         expect(@car.get_sequence()).to eq('I')

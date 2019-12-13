@@ -49,11 +49,9 @@ end
 post '/simulator' do 
     @show = true
     @show_results = true
-    print('IS VALID DIMENSIONS ==> ', @@surface.is_valid_dimensions?())
     if(@@surface.is_valid_dimensions?())
         for i in 0..@@cant_autos-1 do
             if(@@surface.verify_cords?(params["cord_x_#{i}".to_sym].to_i, params["cord_y_#{i}".to_sym].to_i))
-                print('params each ', params["cord_x_#{i}".to_sym], params["cord_y_#{i}".to_sym], params["orientation_#{i}".to_sym], params["sequence_#{i}".to_sym])
                 @@surface.get_cars()[i].set_cords(params["cord_x_#{i}".to_sym].to_i, params["cord_y_#{i}".to_sym].to_i)
                 @@surface.get_cars()[i].set_cords_final(params["cord_x_#{i}".to_sym].to_i, params["cord_y_#{i}".to_sym].to_i)
                 @@surface.get_cars()[i].set_input_orientation(params["orientation_#{i}".to_sym])
